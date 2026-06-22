@@ -1,23 +1,18 @@
-# Creez un backend Apex - iDEM Connect
+# Salesforce DX Project: Next Steps
 
-Projet Salesforce Apex réalisé pour iDEM Connect.
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
-## Fonctionnalités
+## How Do You Plan to Deploy Your Changes?
 
-- RG-01 : empêcher l'activation d'un Order sans produit associé.
-- RG-02 : décocher Account_Active__c lorsqu'un compte n'a plus aucun Order.
-- RG-03 : créer automatiquement une tâche Call pour les comptes sans Order.
+Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
 
-## Contenu du dépôt
+## Configure Your Salesforce DX Project
 
-- OrderTrigger
-- OrderService
-- AccountReminderBatch
-- AccountReminderScheduler
-- AccountReminderSchedulerHandler
-- OrderServiceTest
-- AccountReminderBatchTest
+The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Couverture de code
+## Read All About It
 
-Couverture globale obtenue : 93 %.
+- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
+- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
+- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
